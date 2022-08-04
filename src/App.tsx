@@ -141,7 +141,7 @@ const App: FC = () => {
         setButton(false);
       }
     }
-  }, [input, output]);
+  }, [input, output, link]);
 
   function deleteLink(id: number) {
     const update = link.filter((i: { id: number }) => i.id !== id);
